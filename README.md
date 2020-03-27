@@ -30,6 +30,8 @@ Moreover, the firmware continuously listen to variation on pin 8. A button/pedal
 
 As MIDI is a not so easy protocol, some logic in the firmware helps to not overlap the pedal command and the real MIDI commands. you can find further info in comments in the code (quite strange but I have actually commented it!).
 
+If the damper is sent to the pc but does not work, maybe it is set to a wrong channel. On my kyboard, the keyboard note message are sent on channel 5 (0x04). You can set this by changing the `MIDI_CHANNEL` constant.
+
 ## But I want to play
 Yes, I know what you are thinking. Now we have only a serial port on PC that spams incomprensible characters on the screen. How we can use this device to actually play some more music?
 
