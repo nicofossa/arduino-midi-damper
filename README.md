@@ -41,6 +41,6 @@ You can start it as simply as `./ttymidi -v -s /dev/ttyACM0 -b 115200`. Remember
 
 You can now use `aconnect` to redirect the output of the virtual device to any application on your PC. 
 
-The ArchLinux ~~bible~~ wiki contains [some very useful information](https://wiki.archlinux.org/index.php/USB_MIDI_keyboards) about the MISI subsystem on Linux.
+The ArchLinux ~~bible~~ wiki contains [some very useful information](https://wiki.archlinux.org/index.php/USB_MIDI_keyboards) about the MIDI subsystem on Linux.
 
 If you use Windows, well... Good luck! ;)
